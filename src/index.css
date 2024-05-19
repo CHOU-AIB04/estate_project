@@ -22,3 +22,36 @@
     @apply px-6 py-8 text-[15px] space-y-6 shadow-md bg-white absolute w-full z-10 list-none rounded-b-lg;
   }
 }
+.sh{
+  box-shadow: 0 0 10px black;
+}
+.back{
+  background: transparent;
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 10px blueviolet;
+  border-radius: 10px;
+}
+.radius_pic{
+  border-top-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.radius{
+  border-top-left-radius: 100px;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.log1_radius{
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.log2_radius{
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+}
